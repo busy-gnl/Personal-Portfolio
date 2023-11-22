@@ -1,0 +1,23 @@
+{
+  "nav-about": "À propos",
+  "nav-works": "Projets",
+  "nav-skills": "Compétences",
+  "nav-notes": "Notes",
+  "nav-contact": "Contact",
+  "footer-madeWith": "Fait avec",
+  "footer-by": "par",
+  "footer-flaticon": "Ce favicon vient de",
+  "about-h1": "Salut, moi, c'est Jesse.",
+  "about-h1-bis": "Développeur web",
+  "about-h2": "\"Plus j'apprends, plus je code, plus je suis fasciné par les possibilités infinies du développement.\"",
+  "about-h3": "J'ai 28 ans et j'habite à Clermont-Ferrand.",
+  "about-p1": "Depuis plus d'un an, je me perfectionne dans l'art du développement web à la Wild Code School, où j'ai enrichi mes compétences à travers deux formations approfondies. \n En tant que développeur full-stack junior, je possède une affinité particulière pour le développement front-end.",
+  "about-p2": "Je suis maintenant compétent en JavaScript, en m'appuyant sur React pour le front-end et Nest.js pour le back-end. \n J'ai aussi acquis une solide maîtrise de PHP et du framework Symfony. J'affectionne particulièrement l'utilisation de Tailwind pour concevoir des interfaces CSS élégantes et réactives.",
+  "about-list": "Ce que j’aime dans mon métier : \n ",
+  "about-li-1": "J’apprécie la liberté créative qu'il offre, permettant de concevoir de superbes interfaces utilisateur le plus agréable possible.",
+  "about-li-2": "Chaque nouvelle fonctionnalité est comme un défi, et résoudre des problèmes complexes est gratifiant. Dans ce domaine en constante évolution, il y a toujours quelque chose de nouveau à apprendre, que ce soit un langage, un framework ou une technologie.",
+  "about-li-3": "Cet apprentissage constant est très stimulant. Un site web ou une application web peut être utilisé par des dizaines, des centaines de milliers ou même des millions de personnes. Pouvoir toucher et influencer la vie de tant de personnes est exaltant.",
+  "about-li-4": "De plus, j'apprécie la flexibilité qu’offre ce métier et j’ai la chance de faire partie de cette communauté mondiale infiniment enrichissante.",
+  "about-li-5": "Enfin, l'intersection du développement web avec d'autres disciplines, comme le design, le marketing ou la psychologie, rend mon parcours professionnel d'autant plus passionnant.",
+  "contact-h1": "Contactez-moi"
+}
