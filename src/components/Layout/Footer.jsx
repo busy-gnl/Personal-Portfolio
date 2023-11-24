@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 export default function Footer() {
   const { t } = useTranslation();
   return (
-    <footer className="bottom-0 w-full bg-transparent flex flex-col items-center gap-4 py-2 mt-8">
+    <footer className="bottom-0 w-full bg-transparent flex flex-col items-center gap-4 py-2 mt-8 pb-8">
       <div className="flex gap-8 text-xl font-bold">
         <div>
           <Link

@@ -14,5 +14,6 @@
   "about-p1": "For over a year now, I've been perfecting the art of web development at Wild Code School, where I've enhanced my skills through two in-depth courses. \n As a junior full-stack developer, I have a particular affinity for front-end development.",
   "about-p2": "I'm now proficient in JavaScript, using React for the front-end and Nest.js for the back-end, while having acquired a solid grasp of PHP and the Symfony framework. I'm particularly fond of using Tailwind to design elegant, responsive CSS interfaces.",
   "about-list": "What I like about my job: \n I appreciate the creative freedom it offers, enabling me to design superb dynamic interfaces and make the user experience as pleasant as possible. \n Every new feature is like a challenge, and solving complex problems is rewarding. \n In this constantly evolving field, there's always something new to learn, whether it's a language, a framework or a technology. This constant learning is very stimulating. \n A website or web application can be used by tens, hundreds of thousands or even millions of people. Being able to touch and influence the lives of so many people is exhilarating. \n What's more, I appreciate the flexibility that this profession offers, and I'm lucky enough to be part of this infinitely enriching global community. \n Finally, the intersection of web development with other disciplines, such as design, marketing or psychology, makes my career path all the more exciting.",
-  "contact-h1": "Contact me"
+  "contact-h1": "Contact me",
+  "work-h1": "My projects"
 }

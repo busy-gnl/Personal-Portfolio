@@ -1,36 +1,46 @@
+import { useTranslation } from "react-i18next";
+import ProjectCard from "../../components/ProjectCard";
+
 export default function Work() {
-    return (
-        <>
-            <div className="work">
-                <div className="work__container">
-                    <div className="work__container__text">
-                        <h1 className="work__container__text__title">My Work</h1>
-                        <p className="work__container__text__description">Here are some of the projects I have worked on. Click on the images to view the live sites.</p>
-                    </div>
-                </div>
-                <div className="work__container__projects">
-                    <div className="work__container__projects__project">
-                        <a href="" target="_blank" rel="noreferrer">
-                            <img src="" alt="" />
-                        </a>
-                        <div className="work__container__projects__project__text">
-                            <h2 className="work__container__projects__project__text__title"></h2>
-                            <p className="work__container__projects__project__text__description"></p>
-                        </div>
-                    </div>
-                    <div className="work__container__projects__project">
-                        <a href="" target="_blank" rel="noreferrer">
-                            <img src="" alt="" />
-                        </a>
-                        <div className="work__container__projects__project__text">
-                            <h2 className="work__container__projects__project__text__title"></h2>
-                            <p className="work__container__projects__project__text__description"></p>
-                        </div>
-                    </div>
-                   </div>
-            </div>
-        </>
-    )
+  const { t } = useTranslation();
+
+  const projects = [
+    {
+      title: "Trinded",
+      description: "This is a project",
+      image: "trinded-logo.png",
+      link: "/project",
+    },
+    {
+      title: "Space Station Chronicles",
+      description: "This is a project",
+      image: "space-station-chronicles.png",
+      link: "/space-station-chronicles",
+    },
+    {
+      title: "Serenity",
+      description: "This is a project",
+      image: "https://picsum.photos/400/500",
+      link: "/serenity",
+    },
+  ];
+
+  return (
+    <>
+      <h1 className="text-5xl font-bold text-center mb-16">{t("work-h1")}</h1>
+      <section className="flex flex-col gap-16 items-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 md:flex-row w-[90%] md:w-3/4 gap-8">
+          {projects.map((project) => (
+            <ProjectCard
+              key={project.title}
+              title={project.title}
+              description={project.description}
+              image={project.image}
+              link={project.link}
+            />
+          ))}
+        </div>
+      </section>
+    </>
+  );
 }
- 
-        
