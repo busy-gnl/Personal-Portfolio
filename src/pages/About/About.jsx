@@ -5,23 +5,25 @@ export default function About() {
   return (
     <>
       <section className="flex flex-col gap-16">
-        <div className="flex flex-col gap-8 md:flex-row w-[90%] md:w-2/3 mx-auto justify-between items-center">
+        <div className="flex flex-col gap-8 md:flex-row w-[90%] md:w-2/3 md:gap-16 mx-auto justify-between items-center">
           <img
-            src="public/jesse-lifté.png"
+            src="jesse-at-work.jpg"
             alt=""
-            className="w-full md:w-[444px] sm:w-[95%] shadow-xl rounded-3xl"
+            className="w-full md:w-[400px] sm:w-[95%] shadow-xl rounded-3xl rounded-t-full"
           />
-          <h2 className="text-4xl font-semibold md:w-[40%] text-center md:text-end">
-            {t("about-h2")}
-          </h2>
-        </div>
-        <div className="flex flex-col gap-8 md:flex-row w-[90%] md:w-2/3 mx-auto justify-between items-center">
-          <h1 className="text-5xl font-bold text-center md:text-start">
-            {t("about-h1")}
-          </h1>
-          <h3 className="text-3xl font-semibold text-center md:text-end">
-            {t("about-h3")}
-          </h3>
+          <div className="flex flex-col justify-between gap-8 md:gap-24">
+            <div className="flex flex-col gap-8 md:flex-row justify-between items-center">
+              <h1 className="text-5xl font-bold text-center md:text-start">
+                {t("about-h1")}
+              </h1>
+              <h3 className="text-3xl font-semibold text-center md:text-end">
+                {t("about-h3")}
+              </h3>
+            </div>
+            <h2 className="text-4xl font-semibold text-center md:text-justify">
+              {t("about-h2")}
+            </h2>
+          </div>
         </div>
 
         <div className="flex flex-col gap-8 md:flex-row w-[90%] md:w-2/3 mx-auto justify-between">

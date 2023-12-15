@@ -9,19 +9,19 @@ export default function Work() {
       title: "Trinded",
       description: "This is a project",
       image: "trinded-logo.png",
-      link: "/project",
+      link: "/project/trinded",
     },
     {
       title: "Space Station Chronicles",
       description: "This is a project",
       image: "space-station-chronicles.png",
-      link: "/space-station-chronicles",
+      link: "/project/space-station-chronicles",
     },
     {
       title: "Serenity",
       description: "This is a project",
       image: "https://picsum.photos/400/500",
-      link: "/serenity",
+      link: "/project/serenity",
     },
   ];
 
